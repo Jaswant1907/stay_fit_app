@@ -47,15 +47,7 @@ class _SplashScreensState extends State<SplashScreens> {
                 style: TextStyle(color: color1, fontWeight: FontWeight.w600),
               ),
               SizedBox(height: 50),
-              ElevatedButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => DateRowCard()),
-                  );
-                },
-                child: Text("Sign Up"),
-              ),
+              ElevatedButton(onPressed: () {}, child: Text("Sign Up")),
               SizedBox(height: 20),
               ElevatedButton(
                 onPressed: () {
